@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0px;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.button {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 238, 0);
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  /*styling of button*/
+  border-radius: 20px;
+  border-width: 0px;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  box-shadow: 0 7px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.527);
+  color: white;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.loc {
+  background-color: rgb(255, 238, 0);
+  padding: 10px;
 }

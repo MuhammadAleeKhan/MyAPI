@@ -105,9 +105,10 @@ class App1 extends React.Component {
   render() {
     return (
       <div>
-        {this.state.lati}
-        {this.state.lngi}
-        {this.state.Place}
+        {/* {this.state.lati}
+        {this.state.lngi} */}
+        <p class = "loc">Current Location: {this.state.Place} </p>
+        
         <GoogleComponent
           apiKey={"AIzaSyB8BvbZp0i7LZw4mbhDiRKdbjYH_BZfM_c"}
           language={"en"}
@@ -125,7 +126,7 @@ class App1 extends React.Component {
           onChange={this.handlechange1}
         />
         <br></br>
-        <button type="button" onClick={this.placeride}>
+        <button  type="button" class="button" onClick={this.placeride}>
           Place ride
         </button>
         <br></br>
