@@ -107,7 +107,12 @@ class App1 extends React.Component {
       <div>
         {/* {this.state.lati}
         {this.state.lngi} */}
-        <p class = "loc">Current Location: {this.state.Place} </p>
+        {/* <p class = "loc">Current Location: {this.state.Place} </p> */}
+        <header>
+      <h1>
+        <a href="index.html">KarShare</a>
+      </h1>
+    </header>
         
         <GoogleComponent
           apiKey={"AIzaSyB8BvbZp0i7LZw4mbhDiRKdbjYH_BZfM_c"}

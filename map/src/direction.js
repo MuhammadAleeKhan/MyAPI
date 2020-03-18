@@ -16,9 +16,12 @@ const MyMapComponent = compose(
       <div
         style={{
           marginLeft: "340px",
-          height: `440px`,
+          height: `420px`,
           width: "50%",
-          boxSizing: "border-box"
+          boxSizing: "border-box",
+          borderWidth: "10px",
+          boxShadow: "0 0 10px 0 rgb(255, 238, 0), 0 2px 10px 0 rgb(255, 238, 0)",
+          marginTop: "-20px"
         }}
       />
     ),

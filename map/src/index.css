@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+.body {
+  margin: 0;
+  padding: 0;
+  background: url(LoginBG.jpg);
+  background-size: cover;
+}
+
 .button {
   display: flex;
   align-items: center;
@@ -46,4 +53,26 @@
 .loc {
   background-color: rgb(255, 238, 0);
   padding: 10px;
+}
+
+header {
+  height: 70px;
+  background-color: rgb(255, 238, 0);
+  display: flex;
+  align-items: center;
+}
+
+header > h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-left: 40px;
+  align-items: center;
+}
+
+header > h1 a {
+  color: white;
+  text-decoration: none;
+  font-family: monospace;
+  text-shadow: rgb(144, 8, 8) 6px 8px 15px;
 }
